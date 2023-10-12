@@ -1,3 +1,5 @@
+
+
 import ddf.minim.*;
 import ddf.minim.analysis.*;
 import ddf.minim.effects.*;
@@ -150,17 +152,4 @@ void draw() {
 }
  // Mostrar el área de derrota// Mostrar el área de victoria
 
-  
-
-
-
-void mousePressed() {
-  physics.addDynamicCircle(mouseX, mouseY);
-}
-
-void keyPressed() {
-  if (key == 'r' || key == 'R') {
-    // Reinicia el programa
-    setup();
-  }
 }
