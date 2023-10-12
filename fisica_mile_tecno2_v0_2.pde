@@ -148,8 +148,6 @@ void draw() {
     image(defeatImages[currentFrame], 0, 0, width, height);
     currentFrame = (currentFrame + 1) % defeatImages.length;
   }
-}
-}
- // Mostrar el área de derrota// Mostrar el área de victoria
+ 
 
-}
+
